@@ -1,0 +1,64 @@
+<footer> 
+2   <div class="wrapper"> 
+3     <small>&copy;2017 <strong>Awesome Company</strong>, All Rights Reserved</small> 
+4     <nav class="footer-nav"> 
+5       <a href="#">Back to Top</a> 
+6       <a href="#">Terms of Use</a> 
+7       <a href="#">Privacy</a> 
+8     </nav> 
+9   </div> 
+10 </footer> 
+/* ==== SIMPLE FOOTER STYLES ==== */ 
+2 
+ 
+3 footer { 
+4   background: url('http://i.imgur.com/f4jGhSF.png') repeat center; 
+5   display: table; 
+6   width: 100vw; 
+7   height: 8rem; 
+8   text-align: center; 
+9   padding: 1rem; 
+10   font-family: 'Arial', sans-serif; 
+11   font-size: .875rem; 
+12 } 
+13 
+ 
+14 .wrapper { 
+15   display: table-cell; 
+16   vertical-align: middle; 
+17 } 
+18 
+ 
+19 footer small { 
+20   color: #ccc; 
+21   letter-spacing: .025rem; 
+22   margin-bottom: 1.5rem; 
+23   display: block; 
+24 } 
+25 
+ 
+26 .footer-nav a { 
+27   color: #c74f78; 
+28   text-decoration: none; 
+29   margin: 0 .5rem; 
+30   display: inline-block; 
+31 } 
+32 
+ 
+33 .footer-nav a:hover { 
+34   color: #f26896; 
+35   transition: color .15s ease-in-out; 
+36 } 
+37 
+ 
+38 /* ==== GENERAL STYLES ==== */ 
+39 
+ 
+40 * { 
+41   box-sizing: border-box; 
+42 } 
+43 
+ 
+44 strong { 
+45   font-weight: 700; 
+46 } 
